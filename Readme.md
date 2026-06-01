@@ -16,10 +16,10 @@ Direct parsing and aggregation of local host security and operational event chan
 
 ### Deterministic Sandbox Testing (`Get-SyntheticTelemetry`)
 
-Programmatically generates exactly **1,000 sequenced event records**:
+Programmatically generates exactly **100 sequenced event records**:
 
-* 700 benign background events
-* 300 high-fidelity attack simulations
+* 70 benign background events
+* 30 high-fidelity attack simulations
 
 Used to validate:
 

@@ -2,7 +2,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:52:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:29:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Inioluwa",
     "ProcessName": "powershell.exe",
@@ -12,7 +12,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:52:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:29:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Emily.Davis",
     "LogonType": 3,
@@ -21,7 +21,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:53:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:30:07.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -31,7 +31,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:53:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:30:22.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Sarah.Jenkins",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -42,7 +42,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:53:27.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:30:27.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "ProcessName": "rundll32.exe",
@@ -52,7 +52,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:53:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:30:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "James.Doe",
     "ProcessName": "powershell.exe",
@@ -61,7 +61,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:53:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:30:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Inioluwa",
     "ProcessName": "outlook.exe",
@@ -71,7 +71,7 @@
   {
     "EventID": 4625,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:54:02.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:02.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "Administrator",
     "LogonType": 3,
@@ -81,7 +81,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:54:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "John.Smith",
     "LogonType": 11,
@@ -90,7 +90,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:54:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:22.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -100,7 +100,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:54:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:37.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "David.Miller",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -111,7 +111,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:54:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "SYSTEM",
     "ProcessName": "sethc.exe",
@@ -121,7 +121,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:54:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:31:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Sarah.Jenkins",
     "ProcessName": "powershell.exe",
@@ -130,7 +130,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:55:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "James.Doe",
     "ProcessName": "outlook.exe",
@@ -140,7 +140,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:55:12.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:12.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Sarah.Jenkins",
     "ProcessName": "certutil.exe",
@@ -150,7 +150,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:55:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Inioluwa",
     "LogonType": 2,
@@ -159,7 +159,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:55:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:37.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -169,7 +169,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:55:47.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:47.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "James.Doe",
     "ProcessName": "svchost.exe",
@@ -179,7 +179,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:55:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:32:52.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Emily.Davis",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -190,7 +190,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:56:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "David.Miller",
     "ProcessName": "powershell.exe",
@@ -199,7 +199,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:56:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Sarah.Jenkins",
     "ProcessName": "outlook.exe",
@@ -209,7 +209,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:56:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:22.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_24",
@@ -219,7 +219,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:56:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "James.Doe",
     "LogonType": 3,
@@ -228,7 +228,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:56:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:52.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -238,7 +238,7 @@
   {
     "EventID": 4732,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T07:56:57.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:33:57.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_23",
@@ -248,7 +248,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:57:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:34:07.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "John.Smith",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -259,7 +259,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:57:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:34:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Emily.Davis",
     "ProcessName": "powershell.exe",
@@ -268,7 +268,7 @@
   {
     "EventID": 4720,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T07:57:32.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:34:32.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_22",
@@ -277,7 +277,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:57:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:34:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "David.Miller",
     "ProcessName": "outlook.exe",
@@ -287,7 +287,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:57:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:34:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Sarah.Jenkins",
     "LogonType": 11,
@@ -296,7 +296,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:58:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Administrator",
     "ProcessName": "wevtutil.exe",
@@ -306,7 +306,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:58:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:07.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -316,7 +316,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:58:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:22.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Inioluwa",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -327,7 +327,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:58:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "John.Smith",
     "ProcessName": "powershell.exe",
@@ -336,7 +336,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:58:42.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:42.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Sarah.Jenkins",
     "ProcessName": "powershell.exe",
@@ -346,7 +346,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:58:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:35:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Emily.Davis",
     "ProcessName": "outlook.exe",
@@ -356,7 +356,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:59:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "David.Miller",
     "LogonType": 2,
@@ -365,7 +365,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:59:17.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:17.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "ProcessName": "rundll32.exe",
@@ -375,7 +375,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:59:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:22.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -385,7 +385,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T07:59:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:37.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "James.Doe",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -396,7 +396,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T07:59:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Inioluwa",
     "ProcessName": "powershell.exe",
@@ -405,7 +405,7 @@
   {
     "EventID": 4625,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T07:59:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:36:52.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "Administrator",
     "LogonType": 3,
@@ -415,7 +415,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:00:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:37:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "John.Smith",
     "ProcessName": "outlook.exe",
@@ -425,7 +425,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:00:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:37:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Emily.Davis",
     "LogonType": 3,
@@ -434,7 +434,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:00:27.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:37:27.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "SYSTEM",
     "ProcessName": "sethc.exe",
@@ -444,7 +444,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:00:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:37:37.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -454,7 +454,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:00:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:37:52.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Sarah.Jenkins",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -465,7 +465,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:01:02.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:02.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Emily.Davis",
     "ProcessName": "certutil.exe",
@@ -475,7 +475,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:01:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "James.Doe",
     "ProcessName": "powershell.exe",
@@ -484,7 +484,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:01:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Inioluwa",
     "ProcessName": "outlook.exe",
@@ -494,7 +494,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:01:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "David.Miller",
     "ProcessName": "svchost.exe",
@@ -504,7 +504,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:01:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "John.Smith",
     "LogonType": 11,
@@ -513,7 +513,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:01:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:38:52.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -523,7 +523,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:02:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:07.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "David.Miller",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -534,7 +534,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:02:12.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:12.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_14",
@@ -544,7 +544,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:02:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Sarah.Jenkins",
     "ProcessName": "powershell.exe",
@@ -553,7 +553,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:02:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "James.Doe",
     "ProcessName": "outlook.exe",
@@ -563,7 +563,7 @@
   {
     "EventID": 4732,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T08:02:47.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:47.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_13",
@@ -573,7 +573,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:02:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:39:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Inioluwa",
     "LogonType": 2,
@@ -582,7 +582,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:03:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:07.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -592,7 +592,7 @@
   {
     "EventID": 4720,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T08:03:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:22.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_12",
@@ -601,7 +601,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:03:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:22.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Emily.Davis",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -612,7 +612,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:03:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "David.Miller",
     "ProcessName": "powershell.exe",
@@ -621,7 +621,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:03:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Sarah.Jenkins",
     "ProcessName": "outlook.exe",
@@ -631,7 +631,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:03:57.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:40:57.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Administrator",
     "ProcessName": "wevtutil.exe",
@@ -641,7 +641,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:04:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:41:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "James.Doe",
     "LogonType": 3,
@@ -650,7 +650,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:04:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:41:22.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -660,7 +660,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:04:32.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:41:32.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Emily.Davis",
     "ProcessName": "powershell.exe",
@@ -670,7 +670,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:04:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:41:37.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "John.Smith",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -681,7 +681,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:04:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:41:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Emily.Davis",
     "ProcessName": "powershell.exe",
@@ -690,7 +690,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:05:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "David.Miller",
     "ProcessName": "outlook.exe",
@@ -700,7 +700,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:05:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:07.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "ProcessName": "rundll32.exe",
@@ -710,7 +710,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:05:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Sarah.Jenkins",
     "LogonType": 11,
@@ -719,7 +719,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:05:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:37.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -729,7 +729,7 @@
   {
     "EventID": 4625,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:05:42.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:42.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "Administrator",
     "LogonType": 3,
@@ -739,7 +739,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:05:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:42:52.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Inioluwa",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -750,7 +750,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:06:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "John.Smith",
     "ProcessName": "powershell.exe",
@@ -759,7 +759,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:06:17.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:17.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "SYSTEM",
     "ProcessName": "sethc.exe",
@@ -769,7 +769,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:06:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Emily.Davis",
     "ProcessName": "outlook.exe",
@@ -779,7 +779,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:06:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "David.Miller",
     "LogonType": 2,
@@ -788,7 +788,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:06:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:52.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -798,7 +798,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:06:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:43:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Inioluwa",
     "ProcessName": "certutil.exe",
@@ -808,7 +808,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:07:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:44:07.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "James.Doe",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -819,7 +819,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:07:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:44:22.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Inioluwa",
     "ProcessName": "powershell.exe",
@@ -828,7 +828,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:07:27.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:44:27.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "John.Smith",
     "ProcessName": "svchost.exe",
@@ -838,7 +838,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:07:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:44:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "John.Smith",
     "ProcessName": "outlook.exe",
@@ -848,7 +848,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:07:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:44:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "Emily.Davis",
     "LogonType": 3,
@@ -857,7 +857,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:08:02.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:02.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_4",
@@ -867,7 +867,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:08:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:07.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
@@ -877,7 +877,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:08:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:22.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "Sarah.Jenkins",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -888,7 +888,7 @@
   {
     "EventID": 4732,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T08:08:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:37.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_3",
@@ -898,7 +898,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:08:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:37.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "James.Doe",
     "ProcessName": "powershell.exe",
@@ -907,7 +907,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:08:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:45:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Inioluwa",
     "ProcessName": "outlook.exe",
@@ -917,7 +917,7 @@
   {
     "EventID": 4624,
     "Category": "Authentication",
-    "TimeGenerated": "2026-06-01T08:09:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN01",
     "User": "John.Smith",
     "LogonType": 11,
@@ -926,7 +926,7 @@
   {
     "EventID": 4720,
     "Category": "Account",
-    "TimeGenerated": "2026-06-01T08:09:12.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:12.5616632+01:00",
     "Computer": "SIEM-LAB-DC01",
     "User": "SYSTEM",
     "TargetAccount": "backdoor_admin_2",
@@ -935,7 +935,7 @@
   {
     "EventID": 106,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:09:22.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:22.5616632+01:00",
     "Computer": "SIEM-LAB-SRV01",
     "User": "SYSTEM",
     "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
@@ -945,7 +945,7 @@
   {
     "EventID": 4657,
     "Category": "Persistence",
-    "TimeGenerated": "2026-06-01T08:09:37.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:37.5616632+01:00",
     "Computer": "SIEM-LAB-LAPTOP04",
     "User": "David.Miller",
     "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
@@ -956,7 +956,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:09:47.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:47.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "Administrator",
     "ProcessName": "wevtutil.exe",
@@ -966,7 +966,7 @@
   {
     "EventID": 4104,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:09:52.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:46:52.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN03",
     "User": "Sarah.Jenkins",
     "ProcessName": "powershell.exe",
@@ -975,7 +975,7 @@
   {
     "EventID": 4688,
     "Category": "Process",
-    "TimeGenerated": "2026-06-01T08:10:07.7537389+01:00",
+    "TimeGenerated": "2026-06-01T08:47:07.5616632+01:00",
     "Computer": "SIEM-LAB-WKSTN02",
     "User": "James.Doe",
     "ProcessName": "outlook.exe",
