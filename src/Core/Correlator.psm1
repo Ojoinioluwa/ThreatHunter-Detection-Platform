@@ -1,55 +1,15 @@
+# ==============================================================================
+# Module: ThreatHunter-Detection-Platform - Correlator Anchor Manifest
+# Path:   src/Core/Correlator.psm1
+# Description: Main entry point that loads standalone script logic files into memory.
+# ==============================================================================
 
+# Define path routing to the decoupled script files directory
+$CorrelatorDir = Join-Path $PSScriptRoot "../Correlator"
 
+# Automatically load the dedicated logic modules into the runtime scope
+. (Join-Path $CorrelatorDir "LoginSequence.ps1")
+. (Join-Path $CorrelatorDir "AccountEscalation.ps1")
 
-
-function Track-LogonSequence {
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory=$true)]
-        [array]$LogFile
-    )
-
-    begin{}
-    process{
-
-        $OrderedLogFile = [array]$LogFile
-        [Array]::Reverse($OrderedLogFile)
-        $Tracked = [System.Collections.Generic.List[object]]::new()
-        $Tracker = @{}
-        
-
-        foreach($Log in $OrderedLogFile){
-            if ($Log.Message -match "Account Name:\s+(?<User>\S+)") {
-             $UserName = $Matches.User
-            }
-            # Failed Logon
-            if ($Log.Id -eq 4625){
-
-                if ($null -eq $Tracker[$UserName]) {
-                    $Tracker[$UserName] = @{
-                        Counter   = 0
-                        StartDate = $null
-                    }
-                    $Tracker[$UserName].StartDate = $Log.TimeCreated
-                }
-
-                $Tracker[$UserName].Counter++
-            } elseif($Log.Id -eq 4624){
-                if($Tracker[$UserName].Counter -ge 5 ){
-                    $Tracked.Add(@{
-                        NofFailedLogon=$Tracker[$UserName].Counter
-                        StartDate = $Tracker[$UserName].StartDate
-                        EndDate=$Log.TimeCreated
-                        UserName=$UserName
-                    })
-                }
-
-                $Tracker.Remove($UserName)
-            }
-        }
-
-        $Tracked
-
-    }
-    end{}
-}
+# Export them cleanly to the rest of your automation execution environment
+Export-ModuleMember -Function Track-LogonSequence, Track-AccountEscalation

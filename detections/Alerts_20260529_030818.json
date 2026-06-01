@@ -1,0 +1,103 @@
+[
+  {
+    "EventID": 4688,
+    "Category": "ProcessExecution",
+    "TimeGenerated": "2026-05-29T03:03:18.5368442+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "ProcessName": "powershell.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -Command \"Write-Host 'Triggering ThreatHunter Platform!'; Invoke-Expression # downloadstring iex\""
+  },
+  {
+    "EventID": 4688,
+    "Category": "ProcessExecution",
+    "TimeGenerated": "2026-05-29T03:04:18.5368442+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "ProcessName": "powershell.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "powershell.exe -Letter -enc VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA="
+  },
+  {
+    "EventID": 4720,
+    "Category": "AccountManagement",
+    "TimeGenerated": "2026-05-29T03:05:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin",
+    "Description": "A user account was created.",
+    "CommandLine": "net user backdoor_admin Password123! /add"
+  },
+  {
+    "EventID": 4732,
+    "Category": "AccountManagement",
+    "TimeGenerated": "2026-05-29T03:05:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin",
+    "TargetGroup": "Administrators",
+    "Description": "A member was added to a security-enabled local group.",
+    "CommandLine": "net localgroup administrators backdoor_admin /add"
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-05-29T02:59:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "192.168.1.45"
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-05-29T03:00:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "192.168.1.45"
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-05-29T03:01:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "192.168.1.45"
+  },
+  {
+    "EventID": 1102,
+    "Category": "DefenseEvasion",
+    "TimeGenerated": "2026-05-29T03:06:18.5368442+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "Description": "The audit log was cleared.",
+    "CommandLine": "wevtutil cl Security"
+  },
+  {
+    "EventID": 106,
+    "Category": "ScheduledTask",
+    "TimeGenerated": "2026-05-29T03:07:18.5368442+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Updater\\MaliciousPatch",
+    "TaskPath": "C:\\Windows\\Temp\\beacon.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Registry",
+    "TimeGenerated": "2026-05-29T03:08:18.5368442+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "RegistryKey": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "ValueName": "MaliciousAgent",
+    "ValueObject": "C:\\Users\\Public\\payload.exe",
+    "OperationType": "New Registry Value Created"
+  }
+]

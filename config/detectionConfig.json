@@ -1,0 +1,7 @@
+{
+    "PlatformName": "ThreatHunter-Detection-Platform",
+    "PollingIntervalSeconds": 10,
+    "OutputDirectory": "./detections",
+    "EnableStatefulCorrelation": true,
+    "LoggingLevel": "INFO"
+}

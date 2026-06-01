@@ -1,0 +1,33 @@
+{
+    "Authentication": {
+        "LogonSuccess": 4624,
+        "LogonFailure": 4625,
+        "ExplicitCredentialsUse": 4648,
+        "LsassHandleRequested": 4656
+    },
+    "Account": {
+        "UserCreated": 4720,
+        "UserDeleted": 4726,
+        "LocalGroupMemberAdded": 4732,
+        "GlobalGroupMemberAdded": 4728,
+        "PasswordReset": 4724,
+        "AccountLockedOut": 4740,
+        "SecurityPolicyModified": 4739
+    },
+    "Persistence": {
+        "NewServiceInstalledSecurityLog": 4697,
+        "NewServiceInstalledSystemLog": 7045,
+        "TaskRegistered": 106,
+        "TaskUpdated": 140,
+        "TaskDeleted": 141,
+        "TaskExecuted": 200,
+        "RegistryValueModified": 4657,
+        "RegistryObjectHandleRequested": 4656
+    },
+    "Process": {
+        "ProcessCreation": 4688,
+        "ProcessTermination": 4689,
+        "ScriptBlockExecution": 4104,
+        "AuditLogCleared": 1102
+    }
+}

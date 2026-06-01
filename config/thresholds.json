@@ -1,0 +1,20 @@
+{
+    "BruteForce": {
+        "MaxFailedAttempts": 5,
+        "SlidingWindowMinutes": 30
+    },
+    "AccountEscalation": {
+        "MaxTimeDeltaMinutes": 15
+    },
+    "ProcessAnomalies": {
+        "MaxSuspiciousChildProcesses": 3
+    },
+    "Authentication": {
+        "BruteForceThreshold": 5,
+        "PasswordSprayThreshold": 5,
+        "MaxWindowMinutes": 15
+    },
+    "Account": {
+        "MinFailuresBeforeSuccess": 3
+    }
+}

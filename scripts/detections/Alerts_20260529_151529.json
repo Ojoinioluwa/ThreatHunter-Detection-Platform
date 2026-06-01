@@ -1,0 +1,114 @@
+[
+  {
+    "Timestamp": "2026-05-29T13:57:26.497686+01:00",
+    "RuleName": "Detect-SecurityGroupModified",
+    "MitreTechnique": "T1098",
+    "TargetUser": true,
+    "HostingComputer": null,
+    "Evidence": "High-value administrative group structure changed: Group Target: Administrators. Trace context: \"C:\\Windows\\system32\\cmd.exe\" /c \"net localgroup administrators backdoor_admin /add /?\"",
+    "TimeDetected": "2026-05-29T15:15:28.190434+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T13:55:55.6927478+01:00",
+    "RuleName": "Detect-SecurityGroupModified",
+    "MitreTechnique": "T1098",
+    "TargetUser": true,
+    "HostingComputer": null,
+    "Evidence": "High-value administrative group structure changed: Group Target: Administrators. Trace context: \"C:\\Windows\\system32\\cmd.exe\" /c \"net localgroup administrators backdoor_admin /add /?\"",
+    "TimeDetected": "2026-05-29T15:15:28.1917565+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T13:57:23.4005159+01:00",
+    "DetectionType": "Obfuscated PowerShell Execution",
+    "MITRE_ID": "T1027",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "An obfuscated base64 PowerShell execution sequence was identified and automatically decoded by the platform.",
+    "Evidence": {
+      "DecodedCommand": "Write-Host 'Threat Hunting Live!'\u000f",
+      "ProcessName": "powershell.exe",
+      "RawCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Letter -enc VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA=",
+      "ParentProcess": null,
+      "ExtractedBase64": "VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA="
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T13:55:52.112642+01:00",
+    "DetectionType": "Obfuscated PowerShell Execution",
+    "MITRE_ID": "T1027",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "An obfuscated base64 PowerShell execution sequence was identified and automatically decoded by the platform.",
+    "Evidence": {
+      "DecodedCommand": "Write-Host 'Threat Hunting Live!'\u000f",
+      "ProcessName": "powershell.exe",
+      "RawCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -Letter -enc VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA=",
+      "ParentProcess": null,
+      "ExtractedBase64": "VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA="
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T14:11:28.1859845+01:00",
+    "DetectionType": "Evasive Command-Line Arguments Detected",
+    "MITRE_ID": "T1562.001",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "Process arguments contain explicit directives designed to bypass security execution controls or mask user runtime windows.",
+    "Evidence": {
+      "ProcessId": null,
+      "ProcessName": "pwsh.exe",
+      "CommandLine": "C:\\Users\\Inioluwa\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe -NoProfile -ExecutionPolicy Bypass -Command \"Import-Module 'c:\\Users\\Inioluwa\\.vscode\\extensions\\ms-vscode.powershell-2025.4.0\\modules\\PowerShellEditorServices\\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\\Users\\Inioluwa\\.vscode\\extensions\\ms-vscode.powershell-2025.4.0\\modules' -EnableConsoleRepl -StartupBanner \\\"PowerShell Extension v2025.4.0\nCopyright (c) Microsoft Corporation.\n\nhttps://aka.ms/vscode-powershell\nType 'help' to get help.\n\\\" -LogLevel 'Warning' -LogPath 'c:\\Users\\Inioluwa\\AppData\\Roaming\\Code\\logs\\20260529T141117\\window1\\exthost\\ms-vscode.powershell' -SessionDetailsPath 'c:\\Users\\Inioluwa\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-vscode.powershell\\sessions\\PSES-VSCode-16052-411587.json' -FeatureFlags @() \"",
+      "ParentProcess": null
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T13:57:22.9096682+01:00",
+    "DetectionType": "Evasive Command-Line Arguments Detected",
+    "MITRE_ID": "T1562.001",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "Process arguments contain explicit directives designed to bypass security execution controls or mask user runtime windows.",
+    "Evidence": {
+      "ProcessId": null,
+      "ProcessName": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -Command \"Write-Host 'Simulating ThreatHunter Script Activity!';\"",
+      "ParentProcess": null
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T13:55:51.2226707+01:00",
+    "DetectionType": "Evasive Command-Line Arguments Detected",
+    "MITRE_ID": "T1562.001",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "Process arguments contain explicit directives designed to bypass security execution controls or mask user runtime windows.",
+    "Evidence": {
+      "ProcessId": null,
+      "ProcessName": "powershell.exe",
+      "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -Command \"Write-Host 'Simulating ThreatHunter Script Activity!';\"",
+      "ParentProcess": null
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T13:54:57.0540613+01:00",
+    "DetectionType": "Evasive Command-Line Arguments Detected",
+    "MITRE_ID": "T1562.001",
+    "Severity": "Low",
+    "Computer": null,
+    "User": "-",
+    "Description": "Process arguments contain explicit directives designed to bypass security execution controls or mask user runtime windows.",
+    "Evidence": {
+      "ProcessId": null,
+      "ProcessName": "pwsh.exe",
+      "CommandLine": "C:\\Users\\Inioluwa\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe -NoProfile -ExecutionPolicy Bypass -Command \"Import-Module 'c:\\Users\\Inioluwa\\.vscode\\extensions\\ms-vscode.powershell-2025.4.0\\modules\\PowerShellEditorServices\\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\\Users\\Inioluwa\\.vscode\\extensions\\ms-vscode.powershell-2025.4.0\\modules' -EnableConsoleRepl -StartupBanner \\\"PowerShell Extension v2025.4.0\nCopyright (c) Microsoft Corporation.\n\nhttps://aka.ms/vscode-powershell\nType 'help' to get help.\n\\\" -LogLevel 'Warning' -LogPath 'c:\\Users\\Inioluwa\\AppData\\Roaming\\Code\\logs\\20260529T135445\\window1\\exthost\\ms-vscode.powershell' -SessionDetailsPath 'c:\\Users\\Inioluwa\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-vscode.powershell\\sessions\\PSES-VSCode-6192-613358.json' -FeatureFlags @() \"",
+      "ParentProcess": null
+    }
+  }
+]

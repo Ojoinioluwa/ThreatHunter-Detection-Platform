@@ -1,0 +1,17 @@
+{
+    "BruteForceAuthentication": {
+        "Severity": "High",
+        "MitreID": "T1110.001",
+        "MitreTactics": ["Credential Access"]
+    },
+    "OngoingBruteForce": {
+        "Severity": "High",
+        "MitreID": "T1110.001",
+        "MitreTactics": ["Credential Access"]
+    },
+    "PrivilegeEscalationDetected": {
+        "Severity": "Critical",
+        "MitreID": "T1078.002",
+        "MitreTactics": ["Privilege Escalation", "Persistence"]
+    }
+}

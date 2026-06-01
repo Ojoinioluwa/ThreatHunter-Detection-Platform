@@ -1,0 +1,36 @@
+[
+  {
+    "Timestamp": "2026-05-29T03:15:27.3656425+01:00",
+    "DetectionType": "Authentication Brute-Force Detection",
+    "MITRE_ID": "T1110.001",
+    "Severity": "Medium",
+    "Computer": "DESKTOP-UTI6F75",
+    "User": "Inioluwa",
+    "Description": "A high volume of failed authentication attempts was detected against a single user account within a short window.",
+    "Evidence": {
+      "TargetUser": "Inioluwa",
+      "TimeRangeMinutes": 0.22,
+      "AttackEndTime": "2026-05-29T03:15:27.3656425+01:00",
+      "AttackStartTime": "2026-05-29T03:15:14.4248094+01:00",
+      "TotalFailedLogons": 6,
+      "LogonTypesObserved": "2"
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T02:16:24.5304130Z",
+    "DetectionType": "Successful Authentication After Brute-Force",
+    "MITRE_ID": "T1110.001",
+    "Severity": "Medium",
+    "Computer": "DESKTOP-UTI6F75",
+    "User": "Inioluwa",
+    "Description": "An account successfully logged on immediately following a high volume of local authentication failures.",
+    "Evidence": {
+      "LogonType": "2",
+      "TargetUser": "Inioluwa",
+      "AttackStart": "2026-05-29T03:15:14.4248094+01:00",
+      "PrecedingFailures": 6,
+      "CompromiseTime": "2026-05-29T02:16:24.5304130Z",
+      "WindowMinutes": 1.17
+    }
+  }
+]

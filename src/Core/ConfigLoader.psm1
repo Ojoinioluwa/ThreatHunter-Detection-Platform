@@ -24,7 +24,7 @@ Class PlatformConfig {
             param([string]$FileName)
             $FullPath = Join-Path $this.ConfigPath $FileName
             if (Test-Path $FullPath) {
-                return Get-Content -Raw $FullPath | ConvertFrom-Json
+                return Get-Content -Raw $FullPath | ConvertFrom-Json -AsHashtable
             }
             throw "Critical configuration file missing: $FullPath"
         }
